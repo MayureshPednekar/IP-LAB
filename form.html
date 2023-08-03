@@ -3,9 +3,9 @@
 <head>
     <title>Create your own T-shirt </title>
 </head>
-<body style="background-color: blueviolet;">
-    <h1 style="text-align:center">Create your own T-shirt</h1><br>
-    <form >
+<body >
+    <header><h1>Create your own T-shirt</h1></header><br>
+    <!--<form >
         <label for="tagline">Tagline on the Shirt:</label>
         <input type="text" id="tagline" name="tagline" required><br><br>
 
@@ -49,6 +49,33 @@
         <input type="number" name="Contact no." required><br><br>
 
         <input type="submit" value="Place Order">
-    </form>
+    </form>-->
+    <form>
+        <label >Tagline:</label>
+        <input type="text" name="tag" maxlength="15"><br><br>
+        <label >Color:</label>
+        <input type="color" name="color_" ><br><br>
+        <label>Size:</label>
+        <select>
+        <option value="small">S</option>
+        <option value="medium">M</option>
+        <option value="large">L</option>
+        <option value="extra-large">XL</option>
+        <option value="e-extra-large">XXL</option>
+        </select><br><br>
+        <label >Quantity:</label>
+        <input type="number" name="num" ><br><br>
+        <label >Date of delivery:</label>
+        <input type="date" name="dod" value="sff" ><br><br>
+        <label >Address:</label>
+        <textarea  ></textarea><br><br>
+        <label >Contact: </label>
+        <input type="tel" name="contact" placeholder="0000000000" pattern="[0-9]{3}
+        [0-9]{3} [0-9]{4}" maxlength="12" /><br><br>
+        <label >Image:</label>
+        
+        <input type="file" /><br><br>
+        <input type="submit" value="Place Order"/>
+        </form>
 </body>
 </html>
