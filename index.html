@@ -5,31 +5,34 @@
 </head>
 
 <body>
-    <header>
+  <header>
      <font face="Verdana" size="4"><h1 >Profile Page</h1></font>
-    </header>
-    <h3>Personal Details:</h3>
+  </header>
+  <h3>Personal Details</h3>
         <fieldset> 
-            <table>
-                <tr>
-                    <th><figure><img width="200px" height="210px" src="profile pic.jpg" alt="profile Pic"></figure></th>
-                    <th><font face="Verdana"><h4>Name :<input type="text"></h4></font>
-                        <font face="Verdana"><h4>Age : 20</h4></font>
-                        <font face="Verdana"><h4>Phone Number : 3164321645</h4></font>
-                        <font face="Verdana"><h4>Past Experience:</h4></font>
-                        <ol><li>Fresher</li></ol></th>
-                </tr>
-            </table>
+
+            
+                
+                    <figure><img width="200px" height="210px" src="profile pic.jpg" alt="profile Pic"></figure>
+                        <label >Name: </label>
+                        <input type="text" name="name"><br>
+                        <label >Age: </label>
+                        <input type="number" name="age" maxlength="2"><br>
+                        <label >Contact: </label>
+                        <input type="tel" name="contact" placeholder="+91 0000000000" pattern="[0-9]{10}" maxlength="10"><br>
+                        <label >Past Experience: </label>
+                        <textarea></textarea>
+                        
+                
+            
         </fieldset>
         
-            
+      <h3>Skills And Pages</h3>    
     <fieldset>
         <section>
       <h3>About :</h3>
       <p>As a BE IT student, I aspire to make a positive impact in the tech industry by contributing my talents to projects that can transform the way we live and work. With unwavering determination and a willingness to adapt, I'm ready to embrace the exciting journey that lies ahead, knowing that the world of technology is filled with endless opportunities for those who are passionate and dedicated.</p>
     </section>
-      
-          <legend>Skills and Pages</legend>
     
     <font face="Verdana"><a href="https://github.com/MayureshPednekar/IP-LAB">Visit my Github Page</a></font>
     <font face="Verdana"><h4>My Skills:</h4></font>
@@ -56,6 +59,8 @@
             <td>Python</td>
           </tr>
     </table>
+
+    <h5>Webpage:</h5><a href="form.html">Click here to order T-shirts</a>
   </fieldset>
     <font face="Verdana"><h4>Sample audio</h4></font>
     <audio controls autoplay muted>
@@ -65,7 +70,7 @@
     
     <font face="Verdana"><h5>My Intro Video</h5></font>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/Yv-bLb1P4AI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    <section><a href="form.html">Click here for buying t-shirts</a></section>
+    
 
 </body>
 </html>
