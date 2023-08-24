@@ -9,6 +9,14 @@ p{
     background-color: aquamarine;
 }
 
+#para1 {
+    text-align: center;
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+}
+
 iframe{
     
     border: 10px;
@@ -22,5 +30,56 @@ fieldset{
     border: 15px solid green;
     padding: 50px;
     margin: 20px;
-    
+    border-radius: 105px;
 }
+
+
+/* unvisited link */
+a:link {
+    color: #FF0000;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #00FF00;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #FF00FF;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #0000FF;
+  }
+
+  a.highlight:hover {
+    color: #ff0000;
+  }
+
+  fieldset:hover {
+    background-color: lightcyan;
+  }
+
+  p::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+  }
+
+  * {
+    text-align: center;
+    color: blue;
+  }
+
+  .center {
+    text-align: center;
+    color: red;
+  }
+
+  h1, h3{
+    text-align: center;
+    color: violet;
+  }
+
+
